@@ -45,7 +45,7 @@
 // [3 7 22 2 78] -> 76
 
 // double[] d = new double[5];
-// double max = array[0]; 
+// double max = array[0]; //array[0] - потому что идём с 1го элемента в массиве, он мб любого значения, не только ноль
 // double min = array[0];
 
 // for (int i = 0; i < d.Length; i++)
