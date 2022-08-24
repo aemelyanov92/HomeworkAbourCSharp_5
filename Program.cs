@@ -45,8 +45,8 @@
 // [3 7 22 2 78] -> 76
 
 // double[] d = new double[5];
-// double max = 0; 
-// double min = 0;
+// double max = array[0]; 
+// double min = array[0];
 
 // for (int i = 0; i < d.Length; i++)
 // {
@@ -61,6 +61,16 @@
 // Console.WriteLine("min  " + min);
 // Console.WriteLine("Разница максимального и минимального элементов:  " + (max - min));
 
+// Мишин пример
+
+// double [] array = new double[10];
+
+// for (int i = 0; i < array.Length; i++)
+// {
+//     array[i] = new Random().NextDouble();
+//     Console.Write(array[i] + " ");
+// }
+// diff = max - min
 
 
 
